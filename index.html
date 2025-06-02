@@ -9,18 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 20px;
-            background: url('https://source.unsplash.com/1600x900/?sports,stadium') no-repeat center/cover;
-            background-size: cover;
-            background-attachment: fixed;
-            position: relative;
-        }
-        body::before {
-            content: "";
-            position: absolute;
-            top: 0; left: 0;
-            width: 100%; height: 100%;
-            background: rgba(255, 255, 255, 0.8);
-            z-index: -1;
+            background: linear-gradient(to bottom, #e3f2fd, #ffffff);
         }
         .container {
             width: 80%;
@@ -28,20 +17,28 @@
             padding: 20px;
             background: white;
             border-radius: 8px;
-            box-shadow: 0px 0px 10px gray;
-            position: relative;
-            z-index: 2;
+            box-shadow: 0px 0px 15px gray;
+        }
+        h1 {
+            text-align: center;
+            font-size: 2.5em;
+            color: #008080;
+            margin-bottom: 20px;
         }
         .section {
             display: flex;
             align-items: center;
+            justify-content: space-between;
             margin: 20px 0;
-            padding: 15px;
+            padding: 20px;
             border-bottom: 2px solid #ddd;
+            background: #f0f8ff;
+            border-radius: 8px;
         }
         .section img {
-            width: 20%;
+            width: 25%;
             border-radius: 8px;
+            box-shadow: 0px 0px 10px gray;
         }
         .left img {
             margin-right: 20px;
@@ -51,47 +48,50 @@
         }
         footer {
             text-align: center;
-            padding: 10px;
-            background-color: #008080;
+            padding: 15px;
+            font-size: 1.2em;
             color: white;
+            background-color: #008080;
             margin-top: 20px;
+            border-radius: 8px;
         }
     </style>
 </head>
 <body>
 
     <div class="container">
-        
+        <h1>🏆 Importance of Games & Sports</h1>
+
         <div class="section left">
-            <img src="https://source.unsplash.com/200x150/?sports" alt="Sports image">
+            <img src="https://source.unsplash.com/300x200/?sports" alt="Sports Image">
             <div>
-                <h2>🏆 Introduction</h2>
-                <p>Games and sports play a crucial role in maintaining a healthy lifestyle. They enhance physical fitness, sharpen mental abilities, and build strong character.</p>
+                <h2>🔰 Introduction</h2>
+                <p>Games and sports are essential for a healthy and active life. They promote physical fitness, enhance mental well-being, and help individuals develop valuable life skills such as teamwork and discipline. Engaging in sports ensures a balanced lifestyle, fostering both social and personal growth.</p>
             </div>
         </div>
 
         <div class="section right">
             <div>
                 <h2>💪 Physical & Mental Benefits</h2>
-                <p>Sports boost endurance, improve heart health, and enhance overall fitness. Mentally, they reduce stress, improve concentration, and foster emotional stability.</p>
+                <p>Sports contribute to overall health by improving cardiovascular fitness, strengthening muscles, and boosting energy levels. On a mental level, sports help reduce stress, increase focus, and enhance problem-solving skills. Those who actively participate in games tend to be happier and more resilient in dealing with life’s challenges.</p>
             </div>
-            <img src="https://source.unsplash.com/200x150/?running,fitness" alt="Running image">
+            <img src="https://source.unsplash.com/300x200/?running,fitness" alt="Fitness Image">
         </div>
 
         <div class="section left">
-            <img src="https://source.unsplash.com/200x150/?team,sports" alt="Team sports image">
+            <img src="https://source.unsplash.com/300x200/?team,sports" alt="Team Image">
             <div>
                 <h2>🤝 Teamwork & Leadership</h2>
-                <p>Engaging in sports teaches discipline, teamwork, and leadership. Athletes learn cooperation, strategy-building, and patience—all essential for success in life.</p>
+                <p>Sports teach teamwork, communication, and leadership skills. Whether playing as a team or in individual competitions, athletes learn to strategize, collaborate, and support each other. These qualities prepare individuals for success in their careers and relationships, fostering cooperation and mutual respect.</p>
             </div>
         </div>
 
         <div class="section right">
             <div>
                 <h2>⚡ Discipline & Hard Work</h2>
-                <p>Sports demand dedication, regular practice, and persistence. They prepare individuals to handle victories and setbacks gracefully.</p>
+                <p>Success in sports comes from dedication, perseverance, and continuous improvement. It teaches individuals to handle wins and losses gracefully, develop patience, and push beyond their limits. The lessons learned from sports translate into real-world applications, helping individuals stay committed to their goals.</p>
             </div>
-            <img src="https://source.unsplash.com/200x150/?training,sports" alt="Training image">
+            <img src="https://source.unsplash.com/300x200/?training,sports" alt="Training Image">
         </div>
 
     </div>
